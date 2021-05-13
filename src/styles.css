@@ -1,0 +1,24 @@
+body {
+  font-family: sans-serif;
+}
+html, body, #app {
+  width: 100%;
+  height: 100%;
+}
+.grid {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px; 
+  column-gap: 10px;
+  row-gap: 15px;
+}
+.item {
+  border: 5px solid orangered;  
+  border-radius: 5px;
+  padding: 1rem;
+  /* justify-self: center;
+  align-self: center; */
+  /* min-width: 150px; */
+}
